@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import RefineFrame from './components/RefineFrame';
 
-const INSTALL_COMMAND = 'npx react-work install';
+const INSTALL_COMMAND = 'npx reigns-work install';
 
 // The hero background resolves once on load: queued → generating → refining → complete.
 const SEQUENCE = [
